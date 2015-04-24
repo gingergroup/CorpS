@@ -39,6 +39,10 @@ public class DBManager extends SQLiteOpenHelper {
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL(_query);
         db.close();
+    }
 
+
+    public void test1()
+    {
     }
 }
